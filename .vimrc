@@ -1,3 +1,9 @@
+execute pathogen#infect()
+call pathogen#helptags()
+
+syntax on
+filetype plugin indent on
+
 set number " line numbers
 set ruler " line and column numbers of cursor location
 

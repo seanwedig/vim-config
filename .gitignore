@@ -1,0 +1,4 @@
+# Exclude pathogen code specifically - I didn't write it, and the licensing
+# info is missing from the main repo, so I don't want to distribute it
+# without permission
+autoload/pathogen.vim
