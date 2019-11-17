@@ -13,3 +13,7 @@ set expandtab " make vim always use spaces instead of tabs
 set shiftwidth=2
 set smarttab
 set nowrap
+
+" CtrlP config
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_use_caching = 0
