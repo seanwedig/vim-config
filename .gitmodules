@@ -13,3 +13,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://tpope.io/vim/surround.git
+[submodule "bundle/vim-test"]
+	path = bundle/vim-test
+	url = git@github.com:janko/vim-test.git

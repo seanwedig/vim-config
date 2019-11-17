@@ -23,3 +23,16 @@ let g:ctrlp_use_caching = 0
 
 " vim-plugin-random-colorscheme-picker config
 let g:colorscheme_user_path = '~/.vim/bundle/vim-colorschemes/colors'
+
+" vim-test config
+nmap <silent> <leader>rt :TestNearest<CR>
+nmap <silent> <leader>rT :TestFile<CR>
+nmap <silent> <leader>ra :TestSuite<CR>
+nmap <silent> <leader>rl :TestLast<CR>
+nmap <silent> <leader>rg :TestVisit<CR>
+
+let test#ruby#rspec#options = {
+  \ 'nearest': '--format documentation',
+  \ 'suite':   '--format documentation',
+  \ 'file':    '--format documentation'
+\}
