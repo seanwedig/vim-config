@@ -14,6 +14,12 @@ set shiftwidth=2
 set smarttab
 set nowrap
 
+" fixes for 256 color mode with iTerm2
+set background=dark
+
 " CtrlP config
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_use_caching = 0
+
+" vim-plugin-random-colorscheme-picker config
+let g:colorscheme_user_path = '~/.vim/bundle/vim-colorschemes/colors'
