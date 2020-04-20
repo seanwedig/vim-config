@@ -17,6 +17,15 @@ wanna install that thing first.  I don't have pathogen copied into this repo
 because there's no real licensing on it in the original repo.  Didn't feel
 right to copy code into this.
 
+Once pathogen is installed, pull down the repo into your `.vim` directory, fetch the submodules, and symlink the `.vimrc` into your home dir:
+```bash
+git clone git@github.com:seanwedig/vim-config.git ~/.vim
+cd ~/.vim
+git submodule update --init --recursive
+ln -s  ln -s ~/.vim/.vimrc ~/.vimrc
+```
+   
+
 ### Silly Colors
 There's a collection of silly colorscheme plugins that result in randomly-
 selected colorschemes, picked from something like 970+ colorschemes.  It's
